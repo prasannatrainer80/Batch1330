@@ -1,0 +1,62 @@
+Types of Exceptions :
+______________________
+
+There are 2 types of exceptions known as 
+
+	(i) Checked Exceptions : These are the exceptions, that which occurs at compile time, 
+as during compilation JVM feels some erroneous code is there and stops the execution at
+compile time, can be handled at method level by using throws keyword. 
+
+	(ii) Unchecked Exceptions : These are the exceptions that which occurs at runtime can be handled by 
+		using try...catch block. 
+
+To deal with dates, we need 
+
+Date class from util package
+
+Date obj = new Date(); -> takes the today's date by default. 
+
+How to convert String to Date is, we need the help of
+
+SimpleDateFormat 
+
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+parse() -> Used to convert String to Date...(By default throws ParseException) 
+
+format() -> Used to display date in String format. 
+
+throw keyword : This keyword allows you to throw an expection object based on the condition. Till now, try block is throwing errors to corresponding catches, but if you want to throw user defined exception objects, then we need the help of throw keyword. 
+
+Difference between throws and throw keyword
+
+throws keyword will at method level, where throw keyword will be at code level.
+
+throws keyword used to throw exception classes, where throw keyword used to throw exception objects.
+
+throws keyword simply ignores the exceptions by default, as throw keyword to be raised once the control to be redirected to corresponding catch block. 
+
+Write a program to accept a number, if number < 0 then throw ArithmeticException
+				    if number = 0 then throw ArrayIndexOutOfBoundsException 
+
+
+You can create custom exceptions by using Exception class, if any class, that which derived from Exception can be treated as custom exception. 
+
+write a program to check a person is elligible for voting or not.  If not elligible we need to throw an Exception as VotingException.
+
+
+class CustomException extends Exception {
+      CustomException(String error) {
+	   super(error);
+      }
+}
+
+Write a program to accept 2 numbers, if any number < 0 then throw NegativeException, if any number = 0 then throw NumberZeroException else print the sum. 
+
+
+
+
+
+
+
+
