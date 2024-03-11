@@ -1,0 +1,40 @@
+What is the difference between String and StringBuilder 
+
+Strings are immutable, as once they are assigned we cannot alter the values.
+
+StringBuilder is a mutable object, as we can alter the values. 
+
+Employ
+    empno
+    name 
+    gender
+    dept
+    desig
+    basic
+
+1) Add Employ
+2) Show Employ
+3) Search Employ
+4) Update Employ
+5) Delete Employ 
+
+CRUD 
+
+Validations : 
+
+empno cannot be zero or negative
+name contains min 5 chars
+gender is MALE or FEMALE
+basic must be between 10000 and 90000
+
+If any validation fails then please throw userdefined exception as EmployException 
+
+You need to define what operations are possible in the project, please specify in an interface.
+
+EmployDao as an interface and in that interface Define all the methods,
+
+EmployDaoImpl file contains actual implememntation of existing interface.
+
+After writing the business logic, we need to implement validations to be in EmployBal file as Bal stands for business layer which is responsible for writing vaidations, As Dao file to be called in Bal after validation success. 
+
+

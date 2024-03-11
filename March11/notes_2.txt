@@ -1,0 +1,38 @@
+1) For project, first Create a Model class as
+
+Employ.java contains 
+
+private variables, getters/setters, constructors, toString() 
+
+2) Need to create an user-defined Exception class, because my code contains user-defined exceptions module. 
+
+EmployException.java this file contains user-defined exceptions. 
+
+public class EmployException extends Exception {
+
+	public EmployException() {}
+	
+	public EmployException(String error) {
+		super(error);
+	}
+}
+
+3) Then you create an interface EmployDao that which contains what operations are possible in your project. 
+
+As interface is a contract, as once you see that what you did in project will be understandable to all. 
+
+4) Then its time to implement Business Logic, that must be in EmployDaoImpl file, that which implements EmployDao interface. 
+
+now take static variables or objects, because it has to retain the old values. As for list if you add 10 records, all to be added to the same list. 
+
+5) Which is pending is validations...Validations must be in EmployBal file as it is a business layer which contanis validations. 
+
+EmployBal file please call the methods of EmployDaoImpl class. 
+
+6) Now the execution part we need to make 
+
+Create a File as EmployMain, there you please accept input and call the EmployBal class methods. 
+
+
+
+
