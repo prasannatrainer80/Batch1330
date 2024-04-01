@@ -1,8 +1,8 @@
-drop database if exists Excelr930;
+drop database if exists sonix1330;
 
-create database excelr930;
+create database sonix1330;
 
-use excelr930;
+use sonix1330;
 
 create table dept(
   deptno int,
