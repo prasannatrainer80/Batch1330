@@ -1,0 +1,43 @@
+Unit Testing :
+
+What is Testing ???
+
+defect : If tester identifies something known as defect.
+
+bug : If programmer accepts the defect known as bug. 
+
+*** All defects are not bugs, but all bugs are defects ***
+
+error : if programmer identfies something in your code known as error. 
+
+fatal : if client identifies some error known as fatal. 
+
+Manual testing can be done by testers, but unit testing can be done by
+developers. 
+
+Unit Testing each and every line needs to be tested successfully, and the 
+parameters we need to check here are 
+
+	Code Coverage
+	Test Coverage 
+
+
+We need junit to implement unit testing in java.
+
+We need to create a test-case file, in that we need to write all test cases.
+
+Each test case will be prefixed with @Test annotation. 
+
+test case methods must be void type. 
+
+we have various methods of test cases in java as 
+
+assertEquals()
+assertTrue()
+assertFalse()
+assertArrayEquals()
+assertNull()
+assertNotNull() 
+
+Employ [empno=1, name=Chandra, gender=Male, dept=Java, desig=Developer, basic=98823.0]
+
