@@ -1,0 +1,134 @@
+
+Web Application : These are the applications,that which are to be called from various places rather than where they are created.  If you want to make any distributed or robust applications, then we need the help of web applications. 
+
+You can create web applications in 2 ways 
+
+(i) Scripting Languages
+
+(ii) Programming Languages 
+
+Scripting languages are langauges, that which are interpreted, during runtime
+they takes lot of time to execute. 
+
+Programming languages are langauges, that which are compiled first, during 
+runtime they takes very less time to execute. 
+
+In web applications, we can implement 
+
+(i) Client-Side : Enables you to access the application from the client system.
+
+			No Network traffic
+
+			Execution will be faster 
+
+(ii) Server-Side : 
+
+		Enables you to access the application from the server
+
+		Network traffic is high
+
+		A bit slower 
+
+
+*** Any intranet based application w.r.t. No Security, please opt for 
+		client-side scripting ***
+
+*** Any internet based application w.r.t. min. security, please opt for
+		both client-side/server-side scripting ***
+
+*** Any internet based application w.r.t. High security, please opt for
+		server-side scripting ***
+
+
+HTML (HyperText Markup Language) 
+
+Used to create any sample web pages. 
+
+In html we need to represent elements as tags. 
+
+each opened tag needs to be closed. 
+
+To start with html, use
+
+<html>
+</html>
+
+<head>
+</head> : used to define global content for the given page. 
+
+<title> : Used to display heading on title bar. 
+
+<body> : Used to display actual content for the given page. 
+
+<p> : This tag allows you to write new paragraph everytime.
+
+<img /> : this tag allows you to add an image to the page. 
+
+<img src="imagename" height width alt /> 
+
+Anchor Tag : Allows you to make link from one page to another page. 
+
+<a href="target_page">Display Text</a>
+
+Ordered List : Used to dispaly list of values with numbers or alphets or rowmans etc...
+
+You can define ordered list as 
+
+<ol type="1">
+</ol>
+
+<ol type="A">
+  <li></li>
+</ol>
+
+Unordered List : Used to display list of values with bullets (square, disc and circle) 
+
+You can specify unordered list, using <ul> tag. 
+
+Forms : Allows you to accept the input from the keyboard. You can define forms by using <form> </form> tag. 
+
+<form name="formName">
+</form>
+
+There are various controls as
+
+<input type="text" /> --> TextBox
+
+<input type="button" /> --> Button
+
+<input type="submit" /> --> It works on button click or enter key. 
+
+<input type="password" /> --> It is also textbox, but it displays data in * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
