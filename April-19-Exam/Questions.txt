@@ -1,0 +1,40 @@
+1) Display all records from agent table
+
+2) Display AgentId, firstName,lastName,city,state from Agent Table
+
+3) Display as if MaritalStatus is 1 then 'Married' 'Unmarried' (use case)
+
+4) Display the age of agent in years using dob field
+
+5) Display all records whose gender is 'MALE' from agent table
+
+6) Display all records whose city is either PARLIN or HYDBAD or NewDelhi
+
+7) Display all records whose country is USA
+
+8) Display All records whose name starts with 'S'
+
+9) Display all records whose name ends with 'A'
+
+10) Display all records whose born before 1985
+
+11) Display total records of agent table
+
+12) Display count of how many male and female agents are there
+
+13) Display how many agents are from USA
+
+
+14) Display all records from Policy Table
+
+15) Display all records whose PolicyId between 5 and 10
+
+16) Display all records whose annualpremium > 200000
+
+17) display info as if paymode is 1 then 'yearly' 2 then 'halfyearly' 3 then 'quarterly' (use case)
+
+18) Display total records of policy table
+
+19) Display all records whose appdate is from 2012
+
+20) Display all records whose annualpremium from 10000 to 20000
