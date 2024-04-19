@@ -1,7 +1,7 @@
 create database exam;
 use exam;
 
-drop table Agent
+drop table if exists Agent;
 
 Create Table Agent
 (
@@ -21,7 +21,7 @@ Create Table Agent
     ZipCode varchar(30),
     Country varchar(30),
     Primary Key(AgentID)
-  )
+  );
 
   
   
@@ -67,5 +67,5 @@ values('Sunitha','P','Premjee','Female','1988-01-02','434-55-3323',
 'MI','484555','USA'),
 ('Prasanna','P','Kumar','Male',
 '1980-9-03','423-23-1444',1,'ASRAO NR','Good Luck Cafe','SECBAD',
-'AP','500 062','INDIA') 
+'AP','500 062','INDIA');
 
