@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>  
+<!DOCTYPE taglib  
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"  
+    "http://java.sun.com/j2ee/dtd/web-jsptaglibrary_1_2.dtd">  
+<taglib>  
+  <tlib-version>1.0</tlib-version>  
+  <jsp-version>1.2</jsp-version>  
+  <short-name>simple</short-name>  
+  <uri>http://tomcat.apache.org/example-taglib</uri>  
+<tag>
+	<name>RajeshInfo</name>
+	<tag-class>com.java.custom.RajeshHandler</tag-class>
+</tag>
+<tag>
+	<name>PadmaInfo</name>
+	<tag-class>com.java.custom.PadmaHandler</tag-class>
+</tag>
+<tag>
+	<name>SonixInfo</name>
+	<tag-class>com.java.custom.CompanyHandler</tag-class>
+</tag>
+<tag>
+	<name>display</name>
+	<tag-class>com.java.custom.DisplayHandler</tag-class>
+	<body-content>scriptless</body-content>
+</tag>
+<tag>
+	<name>uppercase</name>
+	<tag-class>com.java.custom.BodyHandler</tag-class>
+	<body-content>scriptless</body-content>
+</tag>
+<tag>
+	<name>shownames</name>
+	<tag-class>com.java.custom.SplitHandler</tag-class>
+	<body-content>scriptless</body-content>
+</tag>
+<tag>
+	<name>showemploy</name>
+	<tag-class>com.java.custom.DatabaseHandler</tag-class>
+	<body-content>scriptless</body-content>
+</tag>
+ </taglib>
